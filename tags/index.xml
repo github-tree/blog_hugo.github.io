@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Website of Tree</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Nov 2020 21:50:26 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2020 10:25:59 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.guxiao.info/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>归并排序</title>
+      <link>https://blog.guxiao.info/tags/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F/</link>
+      <pubDate>Tue, 10 Nov 2020 10:25:59 +0800</pubDate>
+      
+      <guid>https://blog.guxiao.info/tags/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>快速排序</title>
+      <link>https://blog.guxiao.info/tags/%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/</link>
+      <pubDate>Tue, 10 Nov 2020 10:25:59 +0800</pubDate>
+      
+      <guid>https://blog.guxiao.info/tags/%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>算法</title>
+      <link>https://blog.guxiao.info/tags/%E7%AE%97%E6%B3%95/</link>
+      <pubDate>Tue, 10 Nov 2020 10:25:59 +0800</pubDate>
+      
+      <guid>https://blog.guxiao.info/tags/%E7%AE%97%E6%B3%95/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>markdown</title>

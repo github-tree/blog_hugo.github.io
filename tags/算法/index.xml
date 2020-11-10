@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>算法 on Website of Tree</title>
+    <link>https://blog.guxiao.info/tags/%E7%AE%97%E6%B3%95/</link>
+    <description>Recent content in 算法 on Website of Tree</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 10 Nov 2020 10:25:59 +0800</lastBuildDate>
+    
+	<atom:link href="https://blog.guxiao.info/tags/%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>快速排序和归并排序</title>
+      <link>https://blog.guxiao.info/post/algorithm_02/</link>
+      <pubDate>Tue, 10 Nov 2020 10:25:59 +0800</pubDate>
+      
+      <guid>https://blog.guxiao.info/post/algorithm_02/</guid>
+      <description>&lt;p&gt;归并排序和快速排序是两种稍微复杂的排序算法，它们用的都是分治的思想，代码都通过递归来实现，过程非常相似。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>O(n) 时间复杂度内求无序数组中的第 K 大元素</title>
+      <link>https://blog.guxiao.info/post/algorithm_01/</link>
+      <pubDate>Tue, 10 Nov 2020 10:20:54 +0800</pubDate>
+      
+      <guid>https://blog.guxiao.info/post/algorithm_01/</guid>
+      <description>&lt;p&gt;比如，4， 2， 5， 12， 3 这样一组数据，第 3 大元素就是 4。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

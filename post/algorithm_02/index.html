@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme=""><head>
-    <title> Tree | Posts </title>
+    <title> Tree | 快速排序和归并排序 </title>
 
     
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.73.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -21,10 +21,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="https://blog.guxiao.info/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://blog.guxiao.info/favicons/favicon-16x16.png">
 
-    <link rel="canonical" href="https://blog.guxiao.info/post/">
+    <link rel="canonical" href="https://blog.guxiao.info/post/algorithm_02/">
 
     
-    <link rel="alternate" type="application/rss+xml" href="https://blog.guxiao.info/post/index.xml" title="Website of Tree" />
     
     
     
@@ -35,8 +34,8 @@
     <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://blog.guxiao.info/images/site-feature-image.png"/>
 
-<meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content="Call me Tree"/>
+<meta name="twitter:title" content="快速排序和归并排序"/>
+<meta name="twitter:description" content="归并排序和快速排序是两种稍微复杂的排序算法，它们用的都是分治的思想，代码都通过递归来实现，过程非常相似。"/>
 
 </head>
 <body><div class="sidebar animated fadeInDown">
@@ -79,7 +78,7 @@
                    title="">Home</a></li>
         
             
-            <li><a class="current"
+            <li><a 
                    href="/post/"
                         
                    title="">Posts</a></li>
@@ -101,73 +100,51 @@
 
     <div class="autopagerize_page_element">
         <div class="content">
-    <div class="archive animated fadeInDown">
-        <ul class="list-with-title">
+    <div class="post animated fadeInDown">
+        <div class="post-content">
+
+            <div class="post-title">
+                <h3>快速排序和归并排序</h3>
+                
+                    <div class="info">
+                        <em class="fas fa-calendar-day"></em>
+                        <span class="date">Tue, Nov 10, 2020</span>
+                        <em class="fas fa-stopwatch"></em>
+                        <span class="reading-time">One-minute read</span>
+                    </div>
+                
+            </div>
+
+            <p>归并排序和快速排序是两种稍微复杂的排序算法，它们用的都是分治的思想，代码都通过递归来实现，过程非常相似。</p>
+<ul>
+<li>
+<p>归并排序</p>
+<ul>
+<li>如果要排序一个数组，我们先把数组从中间分成前后两部分，然后对前后两部分分别排序，再将排好序的两部分合并在一起，这样整个数组就都有序了。</li>
+</ul>
+</li>
+<li>
+<p>快速排序</p>
+<ul>
+<li>如果要排序数组中下标从 p 到 r 之间的一组数据，我们选择 p 到 r 之间的任意一个数据作为 pivot（分区点）。我们遍历 p 到 r 之间的数据，将小于 pivot 的放到左边，将大于 pivot 的放到右边，将 pivot 放到中间。经过这一步骤之后，数组 p 到 r 之间的数据就被分成了三个部分，前面 p 到 q-1 之间都是小于 pivot 的，中间是 pivot，后面的 q+1 到 r 之间是大于 pivot 的。
+<img src="https://blog.guxiao.info/images/aa03ae570dace416127c9ccf9db8ac05.jpg" alt="Image text"></li>
+</ul>
+</li>
+</ul>
+        </div>
+        <div class="post-footer">
+            <div class="info">
+                
+                <span class="separator"><a class="tag" href="/tags/%E7%AE%97%E6%B3%95/">算法</a><a class="tag" href="/tags/%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/">快速排序</a><a class="tag" href="/tags/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F/">归并排序</a></span>
+
+            </div>
+        </div>
+
+        
             
-                <div class="listing-title">2020</div>
-                
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="https://blog.guxiao.info/post/algorithm_02/" title="快速排序和归并排序">快速排序和归并排序</a>
-                                <div class="post-time"><span class="date">Nov 10</span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="https://blog.guxiao.info/post/algorithm_01/" title="O(n) 时间复杂度内求无序数组中的第 K 大元素">O(n) 时间复杂度内求无序数组中的第 K 大元素</a>
-                                <div class="post-time"><span class="date">Nov 10</span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="https://blog.guxiao.info/post/first/" title="数据库分库">数据库分库</a>
-                                <div class="post-time"><span class="date">Nov 9</span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-            
-                <div class="listing-title">2019</div>
-                
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="https://blog.guxiao.info/post/markdown-syntax/" title="Markdown Syntax Guide">Markdown Syntax Guide</a>
-                                <div class="post-time"><span class="date">Mar 11</span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="https://blog.guxiao.info/post/placeholder-text/" title="Placeholder Text">Placeholder Text</a>
-                                <div class="post-time"><span class="date">Mar 9</span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="https://blog.guxiao.info/post/math-typesetting/" title="Math Typesetting">Math Typesetting</a>
-                                <div class="post-time"><span class="date">Mar 8</span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="https://blog.guxiao.info/post/emoji-support/" title="Emoji Support">Emoji Support</a>
-                                <div class="post-time"><span class="date">Mar 5</span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-            
-        </ul>
+        
     </div>
+
 
         </div>
     </div>

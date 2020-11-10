@@ -4,7 +4,42 @@
   
   <url>
     <loc>https://blog.guxiao.info/</loc>
-    <lastmod>2020-11-09T21:50:26+08:00</lastmod>
+    <lastmod>2020-11-10T10:25:59+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.guxiao.info/post/</loc>
+    <lastmod>2020-11-10T10:25:59+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.guxiao.info/tags/</loc>
+    <lastmod>2020-11-10T10:25:59+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.guxiao.info/tags/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F/</loc>
+    <lastmod>2020-11-10T10:25:59+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.guxiao.info/tags/%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/</loc>
+    <lastmod>2020-11-10T10:25:59+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.guxiao.info/post/algorithm_02/</loc>
+    <lastmod>2020-11-10T10:25:59+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.guxiao.info/tags/%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2020-11-10T10:25:59+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.guxiao.info/post/algorithm_01/</loc>
+    <lastmod>2020-11-10T10:20:54+08:00</lastmod>
   </url>
   
   <url>
@@ -14,16 +49,6 @@
   
   <url>
     <loc>https://blog.guxiao.info/tags/mysql/</loc>
-    <lastmod>2020-11-09T21:50:26+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.guxiao.info/post/</loc>
-    <lastmod>2020-11-09T21:50:26+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.guxiao.info/tags/</loc>
     <lastmod>2020-11-09T21:50:26+08:00</lastmod>
   </url>
   
